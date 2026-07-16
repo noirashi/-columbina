@@ -61,9 +61,9 @@ export const botConfig = {
   applications: {
     // Default questions shown when someone fills out an application.
     defaultQuestions: [
-      { question: "What is your name?", required: true },
-      { question: "How old are you?", required: true },
-      { question: "Why do you want to join?", required: true },
+      { question: "Adın ne?", required: true },
+      { question: "Kaç yaşındasın?", required: true },
+      { question: "Neden bu başvuruyu dolduruyorsun?", required: true },
     ],
 
     // Embed colors by application status.
@@ -294,7 +294,7 @@ export const botConfig = {
     announcementChannel: null,
 
     // Timezone used to calculate birthday dates.
-    timezone: "UTC",
+    timezone: "Europe/Istanbul",
   },
 
   // =========================
